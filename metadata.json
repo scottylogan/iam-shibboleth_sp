@@ -1,0 +1,29 @@
+{
+  "name":                     "suet-shibboleth_sp",
+  "description":              "Simple Stanford Shibboleth SP configuration",
+  "version":                  "1.0.0",
+  "author":                   "Stanford University Emerging Technologies",
+  "summary":                  "Configures Stanford Shibboleth SPs",
+  "license":                  "Apache 2.0",
+  "source":                   "https://code.stanford.edu/et/puppet-shibboleth-sp",
+  "project_page":             "https://code.stanford.edu/et/puppet-shibboleth-sp",
+  "issues_url":               "https://code.stanford.edu/et/puppet-shibboleth-sp/issues",
+  "operatingsystem_support":  [
+    {
+      "operatingsystem":        "Ubuntu",
+      "operatingsystemrelease": [
+        "14.04"
+      ]
+    }
+  ],
+  "dependencies":             [
+    {
+      "name":                 "puppetlabs-concat",
+      "version_requirement":  ">=2.1.0"
+    },
+    {
+      "name":                 "puppetlabs-apache",
+      "version_requirement":  ">=1.8.0"
+    }
+  ]
+}
